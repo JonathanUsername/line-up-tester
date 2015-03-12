@@ -1,0 +1,152 @@
+
+html{
+	height:99%;
+}
+body {
+	background-color: #ffffff;
+	color:#000033;
+	height:99%;
+	margin:0px;
+}
+
+@media screen{
+	#bg {
+		background: url('background.png') no-repeat center -30px transparent; 
+		margin:-10px;
+		height:29%;
+		min-height: 310px;
+	}
+}
+
+/* All Smartphones in portrait and landscape ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	#vidcon.video-container{
+		margin:80px auto;
+	}
+}
+@media only screen and (min-width: 375px) and (max-width: 385px){
+	#vidcon.video-container{
+		margin:80px auto;
+	}
+}
+
+
+#bottom{
+	min-height:320px;
+	height:50vh;
+	max-width: 1299px;
+	margin: 0px auto;
+	display: block;
+	background-color: #a80000;
+	border: solid 3px black;
+	padding:5px;
+}
+#vidcon.video-container{
+	background-color: #000000;
+	min-height:320px;
+}
+
+#ranp {
+	text-shadow: 1px 1px #aaaaaa;
+	line-height: 18px;
+	max-width: 430px;
+	margin:0 auto;
+	display:block;
+}
+
+p {
+	color: 000033;
+	font-family: Georgia;
+	max-width: 430px;
+	margin:0 auto;
+	display:block;
+}
+
+a :not(.glink){
+
+}
+
+#container > * {
+	margin:10px auto;
+	display:block;
+	text-align: center;
+	width:100%;
+}
+
+#container {
+	width:100%;
+	margin:0 auto;
+}
+
+#title1 {
+	font-size: 50px;
+	text-shadow: 2px 2px #aaaaaa;
+	font-family: "Bangers", "Normal 400";
+	color:#b20000;
+}
+
+#divvo {
+	margin: 0px auto;
+	line-height: 15px;
+	height:50px;
+}
+
+button {
+	height:100px;
+	margin: 20px 10px 20px;
+	width: 140px;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #d20000), color-stop(1, #3d0000) );
+	background:-moz-linear-gradient( center top, #d20000 5%, #3d0000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#d20000', endColorstr='#3d0000');
+	background-color:#d20000;
+	-webkit-border-top-left-radius:16px;
+	-moz-border-radius-topleft:16px;
+	border-top-left-radius:16px;
+	-webkit-border-top-right-radius:16px;
+	-moz-border-radius-topright:16px;
+	border-top-right-radius:16px;
+	-webkit-border-bottom-right-radius:16px;
+	-moz-border-radius-bottomright:16px;
+	border-bottom-right-radius:16px;
+	-webkit-border-bottom-left-radius:16px;
+	-moz-border-radius-bottomleft:16px;
+	border-bottom-left-radius:16px;
+	text-indent:0;
+	border:3px solid #333333;
+	color:#ffffff;
+	font-family:"Bangers";
+	font-size:25px;
+	font-style:normal;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #2b16b3;
+}
+button:active {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d0000), color-stop(1, #d20000) );
+	background:-moz-linear-gradient( center top, #3d0000 5%, #d20000 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d0000', endColorstr='#d20000');
+	background-color:#3d0000;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+.video-container {
+    position: relative;
+    height: 100%; 
+    overflow: hidden;
+    max-width: 1299px;
+	min-height:320px;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+

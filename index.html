@@ -1,0 +1,43 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Line-up Tester</title>
+
+    <link rel="stylesheet" href="tubeplucker.css" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Audiowide|Chela+One|IM+Fell+DW+Pica+SC|Bangers' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="jquery-1.11.0.js"></script>
+    <script type="text/javascript" src="tubeplucker.js"></script>
+</head>
+<body>
+<div id="bg">
+    <div id="container">
+        <div id="title1">
+            Line-up Tester
+        </div>
+        <p>
+            A simple application to randomly pick tracks from a list of artists, to give you an idea of what the line-up of a festival will be like.
+        </p>
+        <div id="divvo">
+            <div style="text-align:center;">
+                <textarea rows="4" cols="50" type="text" id="listbox" placeholder="Add your own comma-separated list" style="height: 100px; width: 500px; vertical-align: middle;" ></textarea>
+                <button type="button" id="ranbut">
+                    Go!
+                </button>
+            </div>
+            <a class="glink" id="ranp" href="https://www.google.co.uk/search?q=go"> 
+                Artist Name
+            </a>
+        </div>
+    </div>
+</div>
+<div id="bottom">
+        <div id="vidcon" class="video-container">
+            <div id="player">
+            </div>
+            <iframe id="frame1" src=""></iframe>
+        </div>
+</div>
+
