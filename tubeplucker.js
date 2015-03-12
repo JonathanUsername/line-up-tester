@@ -95,7 +95,7 @@ function goRandom(){
     var randy = Math.floor(Math.random()*items.length);
     var search1 = items[randy];
     $('#ranp').html(search1);
-    $("#ranp").attr("href", "https://www.google.co.uk/search?q='" + search1 + "'&tbm=vid");
+    $("#ranp").attr("href", "https://www.google.co.uk/search?q='" + search1 + "'%20Music&tbm=vid");
     player.cuePlaylist({
         listType:"search",
         list:search1,
