@@ -13,31 +13,30 @@
 </head>
 <body>
 <div id="bg">
-    <div id="container">
+    <div class="cental">
         <div id="title1">
             Line-up Tester
         </div>
         <p>
-            A simple application to randomly pick tracks from a list of artists, to give you an idea of what the line-up of a festival will be like.
+            This is a simple application to randomly pick tracks from a list of artists, to give you an idea of what the line-up of a festival will be like. 
+            It is very naive, just picking the top video returned on a standard YouTube search, so if you like underground bands with generic titles, you're going to have a bad time.
         </p>
-        <div id="divvo">
-            <div style="text-align:center;">
-                <textarea rows="4" cols="50" type="text" id="listbox" placeholder="Add your own comma-separated list" style="height: 100px; width: 500px; vertical-align: middle;" ></textarea>
-                <button type="button" id="ranbut">
-                    Go!
-                </button>
-            </div>
-            <a class="glink" id="ranp" href="https://www.google.co.uk/search?q=go"> 
-                Artist Name
-            </a>
+    </div>
+    <div class="cental" style="text-align:center;">
+        <textarea rows="4" cols="50" type="text" id="listbox" placeholder="Add your own comma-separated list" style="" ></textarea>
+        <button type="button" id="ranbut">
+            Go!
+        </button>
+    </div>
+    <div class="cental">
+        <a class="glink" id="ranp" href="https://www.google.co.uk/search?q=go"> 
+            Artist Name
+        </a>
+    </div>
+    <div class="cental vidja">
+        <div id="player">
         </div>
     </div>
 </div>
-<div id="bottom">
-        <div id="vidcon" class="video-container">
-            <div id="player">
-            </div>
-            <iframe id="frame1" src=""></iframe>
-        </div>
-</div>
+
 
